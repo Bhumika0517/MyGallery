@@ -1,0 +1,42 @@
+html{
+    font-size: 62.5%;
+}
+*{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgb(224, 234, 252);
+}
+.photo{
+    height: 26rem;
+    width: 15rem;
+}
+header{
+    font-size: 10rem;
+    text-align: center;
+    color: #fb07be;
+    padding-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+footer{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 5rem;
+}
+.photo:hover{
+    transform: scale(1.09);
+    transition: all 250ms;
+}
+.photo-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+@media (max-width:600px){
+    header{
+        font-size: 6rem;
+    }
+}
